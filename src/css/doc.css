@@ -86,7 +86,7 @@
 
 .doc pre {
   /* color: #000; */
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   line-height: 1.5;
   margin: 0;
 }
@@ -174,7 +174,7 @@
 }
 
 .doc .admonitionblock pre {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .doc .admonitionblock > table {
@@ -185,7 +185,7 @@
 }
 
 .doc .admonitionblock td.content {
-  padding: 1rem 1rem 0.75rem;
+  padding: 1rem 1rem 0.7rem;
   background-color: #fafafa;
   width: 100%;
 }
@@ -194,7 +194,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding: 0 0.5rem;
   height: 1.25rem;
   line-height: 1;
@@ -277,7 +277,7 @@
 }
 
 .doc p {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   margin: 0;
 }
 
@@ -301,7 +301,7 @@
   color: #4a4a4a;
   font-size: 0.9em;
   margin: 0;
-  padding: 0.75em 1em;
+  padding: 0.7em 1em;
 }
 
 .doc table.tableblock .paragraph {
@@ -334,7 +334,7 @@
 }
 
 .doc ul.checklist i.fa-check-square-o::before {
-  content: "\2713";
+  content: "\2714";
 }
 
 .doc ul.checklist i.fa-square-o::before {
@@ -371,7 +371,7 @@
 .doc .openblock .title {
   /* color: #4a4a4a; */
   color: #191919;
-  font-size: 0.925rem;
+  font-size: 0.9rem;
   font-style: italic;
   letter-spacing: -0.005em;
   padding-bottom: 0.075rem;
@@ -385,7 +385,7 @@
 .doc .exampleblock > .content {
   background-color: #fff;
   box-shadow: inset 0 0 1.75px #248232;
-  padding: 0.75rem;
+  padding: 0.7rem;
 }
 
 .doc .exampleblock > .content > :first-child {
@@ -394,7 +394,7 @@
 
 .doc .sidebarblock {
   background-color: #ebebeb;
-  padding: 0.75rem 1.5rem;
+  padding: 0.7rem 1.5rem;
 }
 
 .doc .sidebarblock > .content > .title {
@@ -421,7 +421,7 @@
   box-shadow: inset 0 0 1.75px #ddd;
   display: block;
   overflow-x: auto;
-  padding: 0.75rem;
+  padding: 0.7rem;
 }
 
 /* NOTE assume pre.highlight contains code[data-lang] */
@@ -433,7 +433,7 @@
   content: attr(data-lang);
   display: none;
   color: #8e8e8e;
-  font-size: 0.75em;
+  font-size: 0.7em;
   font-weight: 500;
   letter-spacing: 0.05em;
   line-height: 1;
@@ -462,7 +462,7 @@
   border-radius: 100%;
   display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-style: normal;
   height: 1.25em;
   line-height: 1.2;
@@ -481,11 +481,11 @@
 }
 
 .doc .colist {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .doc .colist > table tr > td:first-of-type {
-  padding: 0 0.75em;
+  padding: 0 0.7em;
   line-height: 1;
 }
 
@@ -540,4 +540,16 @@ kbd,
 .menuseq i.caret::before {
   content: ">";
   font-weight: 500;
+}
+
+.doc mark {
+  color: inherit !important;
+  background-color: inherit !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
 }
