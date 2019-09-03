@@ -408,7 +408,7 @@
 }
 
 .doc ul.checklist i.fa-check-square-o::before {
-  content: "\2713";
+  content: "\2714";
 }
 
 .doc ul.checklist i.fa-square-o::before {
@@ -644,4 +644,16 @@
 .doc th.tableblock,
 .doc td.tableblock {
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
+}
+
+.doc mark {
+  color: inherit !important;
+  background-color: inherit !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
 }
