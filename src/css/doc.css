@@ -403,7 +403,7 @@
 }
 
 .doc ul.checklist i.fa-check-square-o::before {
-  content: "\2713";
+  content: "\2714";
 }
 
 .doc ul.checklist i.fa-square-o::before {
@@ -617,4 +617,16 @@ kbd,
   font-size: 1.1em;
   font-weight: var(--body-font-weight-bold);
   line-height: calc(1 / 1.1);
+}
+
+.doc mark {
+  color: inherit !important;
+  background-color: inherit !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
 }
