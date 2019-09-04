@@ -102,6 +102,18 @@
   hyphens: auto;
 }
 
+.doc table thead,
+.doc table tfoot {
+  border-top: 1px solid #e1e1e1;
+  background: #f7f8f7;
+}
+
+.doc tbody tr th {
+  display: table-cell;
+  line-height: 1.6;
+  background: #f7f8f7;
+}
+
 .doc a {
   color: var(--link-font-color);
 }
