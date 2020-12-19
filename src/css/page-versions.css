@@ -7,7 +7,8 @@
 
 @media screen and (min-width: 1024px) {
   .page-versions {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -25,13 +26,17 @@
 }
 
 .page-versions .version-menu {
-  border: 1px solid transparent;
-  background-color: var(--page-version-menu-background);
-  padding: 1.25rem 0.5rem 0.5rem;
+  flex: 1 1 auto;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  background: linear-gradient(to bottom, var(--page-version-menu-background) 0%, var(--page-version-menu-background) 100%) no-repeat;
+  padding: 1.375rem 1.5rem 0.5rem 0.5rem;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 0;
+  white-space: nowrap;
 }
 
 .page-versions:not(.is-active) .version-menu {
